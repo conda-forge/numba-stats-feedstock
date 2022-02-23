@@ -1,5 +1,5 @@
 {% set name = "numba-stats" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numba-stats-{{ version }}.tar.gz
-  sha256: f9df0ca2c0de61beeee952c75908bb8d7269b24df3bcfb4ed38653406bb9d358
+  sha256: bd474d4083ca8e0fe7bce90aea1b7cf97cfca293a5481f9eb07ab0b9dd232082
 
 build:
   number: 0
