@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: numba-stats
-  version: "1.13.0"
+  version: "1.14.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 291b487c9032fd636b5ecbc66d214d912acff9f7d4f4bad582ea8b787bf2ecf8
+  sha256: 70a6ccebfca1c9b6173db5700e2c5532fe4132f29f6e6e7ffe26296340cd57c6
 
 build:
   number: 0
